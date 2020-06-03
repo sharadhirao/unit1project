@@ -1,0 +1,413 @@
+Skip to content
+Why GitHub? 
+Team
+Enterprise
+Explore 
+Marketplace
+Pricing 
+Search
+
+Sign in
+Sign up
+sharadhirao
+/
+sample-html
+100
+ Code
+ Issues 0
+ Pull requests 0 Actions
+ Projects 0
+ Security 0
+ Insights
+Join GitHub today
+GitHub is home to over 50 million developers working together to host and review code, manage projects, and build software together.
+
+sample-html/websitesample/4.css
+@sharadhirao sharadhirao Add files via upload
+4b811c2 15 hours ago
+377 lines (302 sloc)  6.03 KB
+  
+/*######### DEFAULTS ############*/
+
+nav ,
+header, footer {
+    display: block;
+}
+body {
+    line-height: 1;
+    margin=0;
+}
+
+label {
+    font-size: 30px;
+    font-weight: 700;
+    color: #FFF;
+    margin-top: 10px;
+}
+
+p {
+    font-size: 20px;
+    font-family: cursive;
+    line-height: 1.2;
+}
+
+article p {
+    font-size: 25px;
+    padding: 10px;
+    font-family: inherit;
+}
+
+.col-4 p {
+    font-weight: 200;
+    color: blanchedalmond;
+}
+
+.container {
+    width: 100%;
+    margin: auto;
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+
+.row {
+    width:100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.row::after {
+    display: table;
+    clear: both;
+    content: "";
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+* {
+    box-sizing: border-box;
+}
+
+
+/*####################  NAV BAR  ###########*/
+
+nav {
+    width: 100%;
+    margin: 0;
+}
+
+nav ul {
+    background-color: black;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+ul.topnav li{
+    list-style: none;
+    float: left;
+}
+
+ul.topnav li.topnav-right {
+    float:right;
+}
+
+ul.topnav li a {
+    display: block;
+    text-decoration: none;
+    min-height: 16px;
+    text-align: center;
+    padding: 14px;
+    text-transform: uppercase;
+    color: white;
+}
+
+ul.topnav li a:hover {
+    background-color: coral;
+    color: #fff;
+}
+
+ul.topnav li.dropdownicon {
+    display: none;
+}
+
+/*#########    custom styles #########*/
+
+header.top-header {
+    background-color: purple;
+    color: white;
+    text-align: center;
+}
+
+div.project-tile {
+    text-align: center;
+    margin: 24px;
+    padding: 36px 24px 40px 24px;
+    border-radius: 7px;
+    background:#363636;
+    box-shadow: 0 0 0 1px rgba(0,0,0,.15),
+        0 2px 3px 0 rgba(0,0,0,.1);
+}
+
+div.lastimage img {
+    display: block;
+    margin-left: 80px;
+    box-shadow: -2px -2px 5px 2px rgba(0,0,0,1.5) ,
+        2px 2px 17px 2px rgba(0,0,0,1);
+    /*box-shadow: horizontal vertical blur shadow rgbz(shadow,bgcolor,boxcolor,opacity)*/
+}
+
+button {
+    font-size: 15px;
+    font-weight: 500px;
+    color: #fff;
+    background-color: black;
+    padding: 15px 60px;
+    display: block;
+    text-align: center;
+    margin: 5px;
+    border-radius: 7px;
+}
+
+button.learnmore {
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+}
+
+button.submit1 {
+    display: block;
+    margin-top: 10px;;
+} 
+
+div.icon {
+    width:100%;
+}
+
+.leftsidecol {
+    margin-left: 30%;
+    
+}
+
+.rightsidecol {
+    margin-left:10%;
+}
+
+form h2 {
+    color: #fff;
+}
+
+header {
+    line-height: normal;
+    text-align: center;
+    background-color: black;
+    color: #fff;
+    margin-top:15px;
+    font-family: cursive;
+    
+}
+
+h1.large {
+    font-size:40px;
+    font-family: cursive;
+    margin:0;
+    line-height:50px;
+    color: bisque;
+}
+
+h1.section2header {
+    font-size: 40px;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+#showcase{
+  min-height:300px;
+  background:url(images/showcase.jpg) no-repeat 0 -400px;
+  text-align:center;
+  font-size: 40px;
+  color:#ffffff;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    margin-right: 20px;
+} 
+
+
+input[type="text"] {
+    font-size: 20px;
+    width: 400px;
+    min-width: 100px;
+    padding: 5px;
+    border-radius: 10px;
+    
+}
+
+form h2 {
+    color: #fff;
+    font-family: sans-serif;
+    font-weight: 200;
+}
+
+/* ########## FOOTER ############ */
+
+footer.footsy {
+    background-color: black;
+    color: white;
+    padding-left: 10%;
+    
+}
+
+footer.footsy h1 {
+    font-size:20px;
+}
+
+footer.footsy h1:hover {
+    background-color: coral;
+    color: #fff;
+    padding-right: 10px;
+}
+
+footer.footsy ul {
+    list-style: none;
+    text-align: left;
+    padding-left: 0;
+}
+
+footer.footsy ul li {
+    color:#fff;
+    font-size: 22px;
+    line-height: 1.5;
+}
+
+/* ########## NEWSLETTER ######### */
+
+#newsletter {
+  margin-top: 20px;
+  padding:15px;
+  color:#ffffff;
+  background:#35424a
+}
+
+#newsletter h1{
+  float:left;
+    margin-right: 50px;
+    color: coral;
+}
+
+#newsletter form {
+  float: inherit;
+  margin:auto;
+    padding: auto;
+}
+
+#newsletter input[type="email"]{
+  padding:4px;
+  height:50px;
+  width:250px;
+}
+
+#newsletter button {
+    margin-top: 15px;
+    min-height: 25px;
+    margin-left: 380px;
+}
+
+/*###########   MOBILE STYLE  ############*/
+
+@media screen and (max-width: 680px) {
+    ul.topnav li:not(:nth-child(1)) {
+        display: none
+    }
+    
+    ul.topnav li.dropdownicon {
+        display: block;
+        float: right;
+    }
+    
+    ul.topnav.responsive li.dropdownicon {
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+    
+    ul.topnav.responsive {
+        position: relative;
+    }
+    
+    ul.topnav.responsive li {
+        display: inline;
+        float: none;
+    }
+    
+    ul.topnav.responsive li a {
+        display: block;
+        text-align: left;
+    }
+    
+    article p {
+        font-size: 20px;
+    }
+    
+    .col-6,
+    .col-4,
+    .col-7
+    {
+        width: 100%;
+        margin: 0;
+    }
+    
+    div.mobilestack {
+        width:50%;
+        display: block;
+    }
+    
+    div.project-tile {
+        padding: 5px;
+        display: block;
+    }
+    
+    div.lastimage img {
+        width: 100%;
+        margin: 10px;
+    }
+    
+    
+    div.leftsidecol,
+    div.rightsidecol {
+        margin: 15px;
+    }
+    
+    input[type="text"] {
+        width:300px;
+    }
+    
+    .videocontainer iframe {
+        position: relative;
+        width: 100%;
+        margin: 0;
+        overflow:hidden;
+    }
+    
+    #newsletter button {
+    display:block;
+    width:50%;
+    margin: 10px 60px 10px 5px;
+}
+}
+
+
+
+
+

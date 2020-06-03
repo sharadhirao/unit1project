@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>my website</title>
+    <link rel="stylesheet" href="5.css">
+</head>
+<body>
+    <nav>
+        <ul class="topnav" id="dropdownclick">
+        <li><a class ="active" href="Untitled-1.html">home</a></li>
+            <li><a href="#">about</a></li>
+            <li><a href="#">contact</a></li>
+            
+            <li class="topnav-right"><a href="#signin">signin</a></li>
+            <li class="topnav-right"><a href="#login">login</a></li>
+            
+            <li class="dropdownicon">
+            <a href="javascript:void(0);" onclick="dropdownmenu()">&#9776;</a>
+            </li>
+        </ul>
+    </nav>
+    
+   <section id="newsletter">
+      <div class="container">
+        <h1>Subscribe To Our Newsletter</h1>
+        <form>
+          <input type="email" placeholder="Enter Email...">
+          <button type="submit" class="button_1">Subscribe</button>
+        </form>
+      </div>
+    </section>
+
+<div class="container">
+        <div class="row">
+        <div class="col-7">
+            <article>
+                <p>
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                </p>
+            </article>
+        </div>
+        <aside>
+            <div class="lastimage">
+                <img src="images/abstarct.jpg">
+            </div>
+        </aside>
+        </div>
+    </div>
+     
+    <footer class="footsy">
+        <div class="row">
+            <div class="col-3 mobilestack">
+                <h1>Company</h1>
+                <ul>
+                <li>About</li>
+                <li>Blogs</li>
+                <li>Careers</li>    
+                </ul>
+            </div>
+             <div class="col-3 mobilestack">
+                <h1>Products</h1>
+                <ul>
+                <li>About</li>
+                <li>Computers</li>
+                <li>Phones</li>    
+                </ul>
+            </div>
+             <div class="col-3 mobilestack">
+                <h1>Learn More</h1>
+                <ul>
+                <li>About</li>
+                <li>Description</li>
+                <li>Designers</li>    
+                </ul>
+            </div>
+             <div class="col-3 mobilestack">
+                <h1>Support</h1>
+                <ul>
+                <li>Help</li>
+                <li>FAQs</li>
+                <li>Contact</li>    
+                </ul>
+            </div>
+                    <p>Acme Web Deisgn, Copyright &copy; 2017</p>
+                
+            </div>
+        
+    </footer>
+    
+    <script>    
+        function dropdownmenu() {
+            var x = document.getElementById("dropdownclick");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>my website</title>
+    <link rel="stylesheet" href="5.css">
+</head>
+<body>
+    <nav>
+        <ul class="topnav" id="dropdownclick">
+        <li><a class ="active" href="#home">home</a></li>
+            <li><a href="about.html">about</a></li>
+            <li><a href="bootstrapindex.html">More</a></li>
+            
+            <li class="topnav-right"><a href="#signin">signin</a></li>
+            <li class="topnav-right"><a href="#login">login</a></li>
+            
+            <li class="dropdownicon">
+            <a href="javascript:void(0);" onclick="dropdownmenu()">&#9776;</a>
+            </li>
+        </ul>
+    </nav>
+    
+   
+    
+    <section id="showcase">
+      <div class="container">
+        <h1>Affordable Professional Web Design</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu luctus ipsum, rhoncus semper magna. Nulla nec magna sit amet sem interdum condimentum.</p>
+          <button class="learnmore"><a href="websitesample/4sample.html"><font color="white">Read More</font></a></button>
+      </div>
+    </section>
+    
+     <header>
+        
+        These are my projects.
+         
+    </header>
+    
+    <div class="container">
+        <div class="row">
+            <div class="col-4">
+            <div class="project-tile">
+                <div class="icon">
+                    <img src="images/download.png">
+                </div>
+                <label><em><a href="about.html"><font color="white">Learn HTML</font></a></em></label>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+            </div>
+            </div>
+            <div class="col-4">
+            <div class="project-tile">
+                <div class="icon">
+                    <img src="images/download.png">
+                </div>
+                <label><em>Learn CSS</em></label>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+            </div>
+            </div>
+            <div class="col-4">
+            <div class="project-tile">
+                <div class="icon">
+                    <img src="images/download.png">
+                </div>
+                <label><em>Learn Javacript</em></label>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+            </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <button class="learnmore">Learn More</button>
+            </div>
+        </div>
+    </div>
+    
+    <hr>
+    
+    
+            
+   
+    <div class="container">
+        <div class="row">
+        <div class="col-7">
+            <article>
+                
+                <p>
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                </p>
+            </article>
+        </div>
+        <aside>
+            <div class="lastimage">
+                <img src="images/abstarct.jpg">
+            </div>
+        </aside>
+        </div>
+    </div>
+     
+    <footer class="footsy">
+        <div class="row">
+            <div class="col-3 mobilestack">
+                <h1>Company</h1>
+                <ul>
+                <li>About</li>
+                <li>Blogs</li>
+                <li>Careers</li>    
+                </ul>
+            </div>
+             <div class="col-3 mobilestack">
+                <h1>Products</h1>
+                <ul>
+                <li>About</li>
+                <li>Computers</li>
+                <li>Phones</li>    
+                </ul>
+            </div>
+             <div class="col-3 mobilestack">
+                <h1>Learn More</h1>
+                <ul>
+                <li>About</li>
+                <li>Description</li>
+                <li>Designers</li>    
+                </ul>
+            </div>
+             <div class="col-3 mobilestack">
+                <h1>Support</h1>
+                <ul>
+                <li>Help</li>
+                <li>FAQs</li>
+                <li>Contact</li>    
+                </ul>
+            </div>
+                    <p>Acme Web Deisgn, Copyright &copy; 2017</p>
+                
+            </div>
+        
+    </footer>
+    
+    <script>    
+        function dropdownmenu() {
+            var x = document.getElementById("dropdownclick");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
+</body>
+</html>
